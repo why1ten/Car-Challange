@@ -8,7 +8,7 @@ public class DeadPeople : MonoBehaviour
     {
         if (other.transform.tag == "People")
         {
-            other.gameObject.SetActive(false);
+            
         }
     }
 }
